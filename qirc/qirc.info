@@ -1,0 +1,49 @@
+name         = QIRC
+description  = QIRC Theme
+package      = Core
+version      = VERSION
+core         = 7.x
+
+
+#stylesheets
+
+;stylesheets[print][]  = css/print.css
+stylesheets[all][]     = css/normalize.css
+stylesheets[all][]     = css/qirc.css
+stylesheets[all][]     = css/menu.css  
+
+
+#javascript
+;scripts[]   = js/bootstrap.js
+;scripts[]   = js/tinynav.min.js
+;scripts[]   = js/script.js
+;scripts[]   = js/superfish.js
+;scripts[]   = js/hoverIntent.js
+
+
+#regions
+
+regions[menuexpanded]   = Main menu 
+regions[navigation]     = Responsive Menu
+regions[homefeatured]   = Featured
+regions[content]        = Content
+regions[sidebar_first]  = Sidebar first
+regions[sidebar_second] = Sidebar second
+regions[frontpagepanels]= Front page panels
+regions[alert]          = Alert
+regions[header]         = Header
+regions[customfooter]   = Custom Footer
+regions[textresize]     = Text resize
+regions[skeletonbread]  = Skeleton Breadcrumbs
+regions[quicklinks]     = Quick links
+regions[searchblock]    = Search Block
+
+
+
+;Information added by Drupal.org packaging script on 2018-04-25
+version      = "7.59"
+project      = "drupal"
+datestamp    = "1524673284"
+
+
+
