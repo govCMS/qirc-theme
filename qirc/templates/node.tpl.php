@@ -40,6 +40,10 @@ endif;
   hide($content['comments']);
   hide($content['links']);
   print render($content);
+  
+  if($node->type !=' faq_content'){
+  print '<br>Last updated '. format_date($node->changed,'custom', 'd F Y')."</p>";
+  }
   ?>
 
   <?php print render($content['links']); ?>

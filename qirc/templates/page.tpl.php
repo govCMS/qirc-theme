@@ -1,40 +1,22 @@
 <?php 
 
 if (!path_is_admin(current_path())) {
-  // Do stuff.
 	$thisnode = 'node/'.$node->nid; 
 	$thispath = explode('/',request_path());
 	$thispath = $thispath[0];
 }
 	
 ?>
-<!-- main wrapper -->
-<div class="wrapper">
 
-<!-- start left hand nav
-	
-	<div class="sidebars_wrapper clearfix" role="list" style="margin-bottom:100vh;position:fixed">  
-		<a class="" href="<?php print base_path(); ?>" role="listitem" style="padding-bottom: 800.9px; margin-bottom: -800.9px;">
-			<div><span>Home</span></div>
-		</a>
-		<?php 
-		
-		if(isset($thisnode) OR (!empty($thisnode))){
-			print $custommenulinks[$thisnode ];
-		}
-		?> 
-	</div>
-</div>
-<!-- end  wrapper -->
 
 <?php include 'header.tpl.php'; ?>
 
 <!-- start home container div -->
-	<div class="container">
+	<div class="container u-page-b">
 	<?php 
 	if($thispath == 'search'){
 		?>
-		<div class="breadcrumb"><a href="/">Home</a> Â» <a href="/search/node">Search</a></div>
+		<div class="breadcrumb"><a href="/">Home</a> » <a href="/search/node">Search</a></div>
 		<?php
 	}
 	else{ ?>
@@ -42,10 +24,11 @@ if (!path_is_admin(current_path())) {
 	print $breadcrumb;  
 	}
 	?>
+	<hr>
 			<div class="u-medium-topborder">
 			<?php
 				if($thispath != 'search'){
-				print '<h2>'. render($title) .'</h2>';
+				print '<h1>'. render($title) .'</h1>';
 				}else{
 					print '<h2>Search </h2>';
 				}
@@ -55,5 +38,6 @@ if (!path_is_admin(current_path())) {
 			</div>
 	</div><!-- end home container div -->
 
-<?php include 'footer.tpl.php'; ?>
+<?php  include 'footer.tpl.php'; ?>
 
+	
