@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
 
-  <!-- Basic Page Needs
+  <!-- Basic Page 
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title><?php # print $sitename; ?></title>
+  <title><?php  print $sitename; ?></title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -18,7 +18,7 @@
   <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <!-- additional CSS calss
+  <!-- additional CSS calls
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
  
 
@@ -27,7 +27,7 @@
   <link rel="icon" type="image/png" href="images/favicon.png">
 
   <!-- Drupal Includes
------------------------------------------------------ -->
+  ---------------------------------------------------- -->
   
   <?php 
   print $head; 
