@@ -11,7 +11,9 @@ core         = 7.x
 stylesheets[all][]     = css/normalize.css
 stylesheets[all][]     = css/qirc.css
 stylesheets[all][]     = css/menu.css  
-
+stylesheets[all][]     = css/green.css
+stylesheets[all][]     = css/whitetext.css
+stylesheets[all][]     = css/acqua.css   
 
 #javascript
 ;scripts[]   = js/bootstrap.js
@@ -37,6 +39,8 @@ regions[textresize]     = Text resize
 regions[skeletonbread]  = Skeleton Breadcrumbs
 regions[quicklinks]     = Quick links
 regions[searchblock]    = Search Block
+regions[headerphone]    = Phone Number (Header)
+regions[footercopy]     = Footer Copyright
 
 
 
