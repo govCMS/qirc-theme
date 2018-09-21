@@ -31,7 +31,7 @@
 - Media Queries
 - gradients
 - Sidebar CSS Animations (currently not used)
-
+- Print Media Query
 */
 
 
@@ -52,7 +52,7 @@
   
   .col-contained{
 	min-height:120px;
-	border: #234B7C 1px solid;
+	
 }
 
 .qirc-home-bg{
@@ -188,14 +188,15 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue Bold',sans-serif;
   color: #222; 
   background-color: #fff;
   margin:0;
   padding:0;
   height:100%
   }
-
+   
+    
 
 /* Typography
 -----------------------------------------------*/
@@ -206,7 +207,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 { font-size: 3.0rem; line-height: 1.2;  letter-spacing: -.1rem; color:#18497D;}
 h2 { font-size: 2.6rem; line-height: 1.25; letter-spacing: -.1rem;color:#18497D; margin-top:2rem; }
 h3 { font-size: 2.0rem; line-height: 1.3;  letter-spacing: -.1rem; color:#18497D;}
-h3.ui-accordion-header { font-size: 2.0rem !important; line-height: 1.3 !important;  letter-spacing: -.1rem !important; color:#18497D !important;  }
+h3.ui-accordion-header { font-size: 1.4rem !important; line-height: 1.3 !important;  letter-spacing: -.1rem !important; color:#18497D !important;  }
 h4 { font-size: 1.8rem; line-height: 1.35; letter-spacing: -.08rem;color:#18497D; }
 h5 { font-size: 1.2rem; line-height: 1.5;  letter-spacing: -.05rem;color:#18497D; }
 h6 { font-size: 1.0rem; line-height: 1.6;  letter-spacing: 0; color:#18497D;}
@@ -234,6 +235,15 @@ p {
     font-size: 2.0rem;
 }  
 
+.ui-widget-content a {
+    color: #222222/*{fcContent}*/;
+    font-size: 1.3rem !important;
+}
+
+.ui-helper-reset {
+    font-size: font-size: 1.4rem;
+
+}
 
 
 /* Logo
@@ -252,48 +262,36 @@ p {
 /* Home page icons 
 ---------------------------------------------------*/
 div#block-views-home-page-items-block div.qirc-front-icons a img  {
-	margin-left:7px;
-	margin-top: 4%;
-
+	
 }
   
 /* Links
 -----------------------------------------------*/
-a {
-  color: #124556; }
-a:hover {
-  color: #124556; 
-  text-decoration:underline;
-  } 
+a {color: #124556; }
+a:hover {color: #124556; text-decoration:underline;} 
  
-.qirc_lite_grn_bg  a {font-weight:900;font-size:1.8rem !important;}
+.qirc_lite_grn_bg a {font-weight:900;font-size:1.8rem !important;}
+.qirc_lite_bg{ background-color: #7c97b0; color:#fff; min-height:110px;   }
 
  .home-tabs-container > a{
 	text-decoration:none;
 	font-weight:bold;
-	color: #124556;
+	color: #fff;
 	font-size:1.2em;
-	margin-left: 3.5em;
-    display: block;
-	text-align:left;
-	padding-top: 5%;
-    padding-right: 5%
  } 
  
- .home-tabs-container > a:hover{
-	 text-decoration:underline;
+.home-tabs-container > a:hover{ text-decoration:underline; } 
+.qirc-front-icons {    
+	min-height: 110px;
+    background: #1c557b;
+    min-width: 50px;
+    float: right;
  }
- 
- .home-tabs-container{
+.home-tabs-container{  padding-top:1.5em; padding-left:1.3em;padding-right:1.3em; }
 
- }
-.qirc-front-icons {
-	margin-top: 20px;
- }
 
 #block-views-home-page-items-block > div.block__content > div > div > div > div > div > div > a > img {
-	float:left !important;
-	display:block !important;
+	padding-top: 1.8em;padding-left: 1em;
 }
  
 #block-views-home-page-items-block > div.block__content > a > img {
@@ -338,8 +336,8 @@ a:hover {
  ul#superfish-3 > li > a.active{
 	 text-decoration:underline;
  }
- 
- 
+ /* Superfish 2 Main nav
+ ------------------------------------------------- */
  ul#superfish-2{
 	 text-align:center;
  }
@@ -347,27 +345,25 @@ a:hover {
 
  
   ul#superfish-2 > li{
-	border-right:1px solid #fff;
-	font-size:1.4rem;
-	padding-bottom:10px;
-	padding-top:10px;
-	padding-right:15px;
-	padding-left:15px;
+	border-right: 1px solid #fff;
+    font-size: 1.4rem;
+    padding-bottom: 10px;
+    padding-top: 13px;
+    padding-right: 15px;
+    padding-left: 15px;
   }
  
- ul#superfish-2 > li,  ul#superfish-2 > li > a {
+ ul#superfish-2 > li,  
+ ul#superfish-2 > li > a {
 	font-weight:bold;
 	text-decoration:none;
 	color:#fff;
-	 
-	
  }
  
  ul#superfish-2 > li.last{
 	border-right:none;
  }
  
-
  ul#superfish-2 > li  > a:hover,  
  ul#superfish-2 > li  > a:active,
  ul#superfish-2 > li  > a.active, 
@@ -377,53 +373,54 @@ a:hover {
  }
  
 ul#superfish-2 ul > li > a:hover{
-	padding:10px;
+	/*padding:10px;*/
 } 
  
-ul#superfish-2 > ul, ul#superfish-2 ul, 
-ul#superfish-2 ul li, ul#superfish-2 ul li a {
+ul#superfish-2 > ul, 
+ul#superfish-2 ul, 
+ul#superfish-2 ul li, 
+ul#superfish-2 ul li a {
 	background: #294C7B !important;
     padding-bottom: 5px;
     color: #fff;
     text-decoration: none;
     text-align: left;
-    padding-left: 3px !important;
+
 }
+
 ul#superfish-2 ul li a:hover {
 	text-decoration:underline;
 }
 
 
-
-ul#superfish-2 ul{
-	margin-top:2px;
-}
-
-ul#superfish ul li li:hover, ul#superfish ul li:hover {
-	background:#6C82A0 !important;
-}
-
-
-
-
-ul#superfish-2  ul  li{
-	margin-top:10px !important;
-}
-
+ ul#superfish-2  ul ul{
+	margin-top:5px !important;
+ }
  
- ul#superfish-2  li  ul li  a:hover,  ul#superfish-2  li  ul  li:hover, ul#superfish-2  li  ul  li  a:active, {
+ u
+ 
+ul#superfish-2 li ul li a, ul#superfish-2 li ul li {
+	padding-left:0.5em;
+}
+ 
+ ul#superfish-2  li  ul li  a:hover,  
+ ul#superfish-2  li  ul  li:hover, 
+ ul#superfish-2  li  ul  li  a:active,
+ ul#superfish ul li li:hover, 
+ ul#superfish ul li:hover {
 	 background:#6C82A0 !important;
  }
   
  
  
   ul#superfish-2 > li > a > .sf-sub-indicator,.sf-sub-indicator{
-	  position:absolute;
-	  top:1em;
 	  display:none;
   } 
  
-
+ 
+/* Superfish 1
+ --------------------------------------------*/
+ 
  ul#superfish-1 > li:before{
 	color:white;
 	content: "|";
@@ -1129,10 +1126,14 @@ td.views-field-field-date-certified{
 }
 
 .alert-blue{
-	background-color: #EEF7FB;
-    border: #6981a1 1px solid;
+	/*background-color: #EEF7FB;*/
+	background-color: #F1F2F4;
+	border: 1px solid #DADDE2;
+   /*border: #6981a1 1px solid;*/
     padding-bottom: 20px;
     padding-top: 20px;
+	padding-left:30px;
+	line-height:1.2;
 }
  
 .alert-blue a, .alert-blue a:hover, .alert-blue a:active{
@@ -1151,8 +1152,12 @@ td.views-field-field-date-certified{
 p.on-this-page{
 	font-weight: 700;
 	color:#194A81;
-    margin-left: 35px;
+    
 }
+div.alert-blue.alert-width-1 > p{
+	
+}
+
 
 ul#on_this_page{
 	list-style-type:none !important;
@@ -1241,6 +1246,7 @@ form {
 
 .breadcrumb{
 	margin-top: -20px !important ;
+	border-bottom: 1px solid #DADDE2 !important;
 }
 
 /* Files
@@ -1257,10 +1263,17 @@ div.field.field-name-field-file.field-type-file.field-label-above > div.field-la
 	padding:2px;
 }
 
+.ui-accordion-header{
+	border-radius:0;
+	moz-border-radius: 0;
+	-webkit-border-radius: 0px;
+}
+
 .ui-accordion .ui-accordion-header a{
 	padding-top:1px;
 	padding-bottom:1px;
 	color: #18497D;
+	
 }
 
 .ui-corner-all{
@@ -1283,10 +1296,11 @@ div.field.field-name-field-file.field-type-file.field-label-above > div.field-la
 /*** misc ***/
 .qirc_lite_grn_bg{
 	background-color:#EEF7FB; 
+	padding-top:4px;
 }
 /* dark blue menu */
 .qirc_mid_grn_bg{
-
+     padding: 3px;
 	/*background: #234B7C url("/sites/all/themes/qirc/images/5938_QIRC-Concept-Header-Banner_1-3.jpg");*/
 }
 
@@ -1348,7 +1362,9 @@ div.field.field-name-field-file.field-type-file.field-label-above > div.field-la
 hr {
   margin-bottom: 3.5rem;
   border-width: 0;
-  border-top: 1px solid #EEF7FB; }
+  border: 1px solid #DADDE2;
+
+  }
 
 /* styles for desktop */
 .tinynav {
@@ -1535,7 +1551,6 @@ div.site-map-box-menu > h2.title{
 }
 
 .qirc-footer-gradient{
-	
 	/*background: rgba(102,15,21,1);
 	background: -moz-linear-gradient(left, rgba(102,15,21,1) 0%, rgba(102,15,21,1) 12%, rgba(4,50,71,1) 100%);
 	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(102,15,21,1)), color-stop(12%, rgba(102,15,21,1)), color-stop(100%, rgba(4,50,71,1)));
@@ -1544,10 +1559,8 @@ div.site-map-box-menu > h2.title{
 	background: -ms-linear-gradient(left, rgba(102,15,21,1) 0%, rgba(102,15,21,1) 12%, rgba(4,50,71,1) 100%);
 	background: linear-gradient(to right, rgba(102,15,21,1) 0%, rgba(102,15,21,1) 12%, rgba(4,50,71,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#660f15', endColorstr='#043247', GradientType=1 );
-	
 	background:url("/sites/all/themes/qirc/images/5938_QIRC-Concept-FooterBanner.jpg");
 	background-repeat: no-repeat;*/
-	
 }
 
 
@@ -1558,4 +1571,30 @@ div.field.field-name-field-icon-.field-type-image > div > div > a > img{
 
 div.field.field-name-field-icon.field-type-image > div > div > a > img{
 	display:none !important;
+}
+#block-views-home-page-items-block > div.block__content > div > div > div > div:nth-child(1) > div:nth-child(1) > span > a
+
+
+
+/* ==========================================================================
+   PRINT MEDIA QUERY
+   ========================================================================== */
+.qirc_print-icon{
+	background-color:#DADDE2 ;
+	border: 1px solid maroon;
+	padding:2em !important;
+}
+.qirc_print-icon:hover{
+	background-color:#E8EAED;
+}
+
+   
+@media print{
+	.qirc_print{display:none !important;}
+	.qirc-quicklinks{display:none !important;}
+    .region-searchblock{display:none !important;}
+	.superfish-2{display:none !important;}
+	.region-navigation {display:none !important;}
+	.block-superfish-3{display:none !important;}
+	.qirc_menu_background{display:none !important;}
 }
