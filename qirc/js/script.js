@@ -54,8 +54,9 @@ Drupal.behaviors.responsiveSlides = {
 
 
 
-//function printLHPage(){
-//	window.print();
-//}
+function printPage(){
+	alert('print');
+	window.print();
+}
 
 
