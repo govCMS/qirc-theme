@@ -272,6 +272,11 @@ a:hover {color: #124556; text-decoration:underline;}
  
 .qirc_lite_grn_bg a {font-weight:900;font-size:1.8rem !important;}
 .qirc_lite_bg{ background-color: #7c97b0; color:#fff; min-height:110px;   }
+/*.qirc_lite_bg:hover{ background-color: #1c557b; color:#fff; min-height:110px;   }*/
+
+.qirc_lite_bg:hover{ background-color: #801f1c; color:#fff; min-height:110px;   }
+
+
 
  .home-tabs-container > a{
 	text-decoration:none;
@@ -1427,20 +1432,74 @@ div.site-map-box-menu > h2.title{
 
 
 
-/* Larger than mobile */
+/* Mobiles iphones 6/7/8 */
 @media (min-width: 320px) and (max-width:549px){
+	
+	
+	/* regions */
+	.region-frontpagepanels{ margin-top: 15px;}
+	.region-quicklinks {float: none;}
+	.region-searchblock {position: absolute;top: -25px;left: 50px;}
+	.region-quicklinks {float: none;margin-right:0px;margin-top: 0px;margin-left: -10px;}
+	.region-navigation{margin-left:0px;}
+	.region-headerphone {clear: both;position: static;}
+	.region-searchblock{float:none; position:absolute;top:-25px;  }
+	div.region.region-headerphone p {padding-left:5px;}
+	
     .sidebars_wrapper{display:none;}
     .qirc-quicklinks{ right:0px; }
-    .region-searchblock{float:none;  }
     .col-contained{margin-bottom:2px ;}
 	.qirc_logo{max-width:275px;}
-	.region-quicklinks {float: none;}	
 	.menu-left-9-col{margin-top:-10px;}
+	
+	
+	/* search */
+	#edit-submit {position: relative;left: 230px;top: -35px;}
+	#edit-submit--2 {position: absolute;right: -5px;top: 0px;}
+	
+	
+	/* superfish */
 	ul#superfish-3-accordion > li { float:none !important; }
 	ul#superfish-2-accordion > li { float:none; }
-	ul#superfish-1 {margin-top:50px;}
+	ul#superfish-1 {margin-top:10px;padding-top:0;}
+	ul#superfish-1 > li::before {content: "";}
+	ul#superfish-2-accordion > li a { text-decoration:none;}
+	ul#superfish-2-accordion > li a:hover { text-decoration:underline;}
 	
-}
+	/* front icons */
+	div.qirc-front-icons a img{ padding-top:0px;float:right;margin-top: -30px;max-width: 30px;height: auto;padding-right: 20px;}
+	.qirc-front-icons img {width:20px;height:auto;}
+	.qirc-front-icons{min-height: unset;background: unset;}
+	.footer {position:unset;bottom: 0;left: 0;right: 0;background-image: none;background-repeat: no-repeat;background-color: #152E4A;height: unset;}
+	.qirc_menu_background {background-image: none;background-color: #234B7C;}
+	.home-tabs-container > a {font-size: 1.0em;margin-right: 2px;padding-right: 5px;}
+	.qirc_lite_bg, .qirc_lite_bg:hover{min-height:60px;}
+	#block-views-home-page-items-block > div.block__content > div > div > div > div > div > div > a > img {padding-top: unset;padding-left: unset;}	
+	
+	
+	/* breadcrumbs */
+	.breadcrumb { margin-top: 20px !important; }
+	
+	
+	
+	
+	
+	
+}/* end mobile media */
+
+
+/* iPad landscape */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+	
+	.col-contained{min-height:unset;margin-left:0px}
+	.three.columns{width:100%;}
+	.qirc_lite_bg, .qirc_lite_bg:hover{min-height:60px;}
+	
+} /* end iPad landscape */
+
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) and (max-width: 649px) {
@@ -1458,15 +1517,7 @@ div.site-map-box-menu > h2.title{
 	.col-contained{margin-bottom:2px  !important;}	
 }
 
-/* IPad certificate */
-@media only screen and (device-width: 768px) {
-  /* For general iPad layouts */
-  .home-tabs-container > a { font-size:1.0em}
-  ul#superfish-2 > li, ul#superfish-2 > li > a { font-size: 0.9em }
-  .qirc_logo{max-width:200px;}
-  .col-contained{min-height:150px;}	
 
-}
 
 @media(min-width: 960px) and (max-width: 999px){
 	.qirc_logo{max-width:300px;}
