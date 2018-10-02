@@ -13,6 +13,21 @@ if (!path_is_admin(current_path())) {
 
 <!-- start home container div -->
 	<div class="container u-page-b">
+	
+	
+	<!-- print option -->
+	<div class="u-pull-right qirc_print-icon" style="border: 1px solid #E8EAED;padding: 0.5em;padding-right: 0.5em;padding-left: 0.5em;margin-top: -15px;padding-left: 0.5em;padding-right: 1em;box-shadow: 2px 2px 0px 0px #dadde2;">
+		<span class="print_icon">
+		<a class="" style="cursor:pointer" onclick="printPage();" style=""><i class="fa fa-print" style="color:#6D1915"></i>
+		</span>
+		<span class="print_test">
+		<a class="" onclick="printPage();" style="cursor:pointer;margin-bottom:5px;color:#6D1915;padding-top:5px;padding-bottom:5px">
+		Print this page</a>
+		</span>
+	</div>
+	<!-- end print option -->
+	
+	
 	<?php 
 	if($thispath == 'search'){
 		?>
@@ -24,7 +39,8 @@ if (!path_is_admin(current_path())) {
 	print $breadcrumb;  
 	}
 	?>
-	<hr>
+	
+	
 			<div class="u-medium-topborder">
 			<?php
 				if($thispath != 'search'){

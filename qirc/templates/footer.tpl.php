@@ -1,5 +1,5 @@
 </div><!-- end of the wrapper -->	
-<div class="footer">
+<div class="footer qirc_print">
 	<div class="container">
 		
 		<div class="row qirc-footer-gradient">

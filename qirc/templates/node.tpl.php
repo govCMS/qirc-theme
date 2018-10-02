@@ -12,6 +12,8 @@ if (!isset($title_tag) || empty($title_tag)) :
 endif;
 
 ?>
+
+
 <article class="node-<?php print $node->nid; ?> <?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
   <?php if ($title_prefix || $title_suffix || $display_submitted || $unpublished || !$page && $title): ?>
@@ -40,8 +42,13 @@ endif;
   hide($content['comments']);
   hide($content['links']);
   print render($content);
+
+  $thispath = explode('/',request_path());
+  $history = $thispath[1];
+  $thispath = $thispath[0];
   
-  if($node->type !=' faq_content'){
+
+  if($thispath !='frequently-asked-questions' AND $history != 'history' OR ($thispath !='industrial-organisations')){
   print '<br>Last updated '. format_date($node->changed,'custom', 'd F Y')."</p>";
   }
   ?>

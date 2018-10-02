@@ -15,9 +15,9 @@
 <!-- start home buttons  div -->
 <div class="container">
     <?php foreach ($rows as $row_number => $columns): ?>
-      <div class="row qirc-row-margins">
+      <div class="row qirc-row-margins home_panel_row">
         <?php foreach ($columns as $column_number => $item): ?>
-         <div class="three columns qirc_lite_grn_bg col-contained ">
+         <div class="three columns qirc_lite_bg col-contained ">
             <?php print $item; ?>
           </div>
 	<?php endforeach; ?>

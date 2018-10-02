@@ -33,8 +33,13 @@
   print $head; 
   print $styles; 
   print $scripts; 
-  ?>
 
+  ?>
+  <script>
+  function printPage(){
+	window.print();
+}
+</script>
 </head>
 <body>
 
