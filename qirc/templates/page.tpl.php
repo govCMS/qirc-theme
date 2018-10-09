@@ -31,7 +31,7 @@ if (!path_is_admin(current_path())) {
 	<?php 
 	if($thispath == 'search'){
 		?>
-		<div class="breadcrumb"><a href="/">Home</a> » <a href="/search/node">Search</a></div>
+		<div class="breadcrumb"><a href="/">Home</a> Â» <a href="/search/node">Search</a></div>
 		<?php
 	}
 	else{ ?>
@@ -41,16 +41,20 @@ if (!path_is_admin(current_path())) {
 	?>
 	
 	
-			<div class="u-medium-topborder">
-			<?php
-				if($thispath != 'search'){
-				print '<h1>'. render($title) .'</h1>';
-				}else{
-					print '<h2>Search </h2>';
-				}
-				print render($page['content']);
-
+	<div class="u-medium-topborder">
+	<?php
+		if($thispath != 'search'){
+			print '<h1>'. render($title) .'</h1>';
+			}else{
+			print '<h2>Search </h2>';
+			}
+			print render($page['content']);
+			print '<p>Last updated '. format_date($node->changed,'custom', 'd F Y')."</p>";
 			?>
+			
+ 	
+				
+				
 			</div>
 	</div><!-- end home container div -->
 
