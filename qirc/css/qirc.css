@@ -229,6 +229,10 @@ h1.qirc_title{
 p {
   margin-top: 0; }
 
+#quickset-faq > div.ui-accordion-content article p{
+   font-size:1.5rem;
+}
+
 .whitetext{
 	color: #fff;
     font-weight: 500;
