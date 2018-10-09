@@ -42,15 +42,6 @@ endif;
   hide($content['comments']);
   hide($content['links']);
   print render($content);
-
-  $thispath = explode('/',request_path());
-  $history = $thispath[1];
-  $thispath = $thispath[0];
-  
-
-  if($thispath !='frequently-asked-questions' AND $history != 'history' OR ($thispath !='industrial-organisations')){
-  print '<br>Last updated '. format_date($node->changed,'custom', 'd F Y')."</p>";
-  }
   ?>
 
   <?php print render($content['links']); ?>
