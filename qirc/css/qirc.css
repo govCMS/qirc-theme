@@ -56,17 +56,17 @@
 }
 
 .qirc-home-bg{
-	/*background: #294C7B url("/sites/all/themes/qirc/images/5938_QIRC-Concept-Header-Banner_1-2.jpg");*/
+	/*background: #294C7B url("../images/5938_QIRC-Concept-Header-Banner_1-2.jpg");*/
 	background-repeat: no-repeat;	
 }
 
 .qirc_flexi_header{
-	background: url("/sites/all/themes/qirc/images/5938_QIRC-Concepts_Revised-header.jpg");
+	background: url("../images/5938_QIRC-Concepts_Revised-header.jpg");
 	background-repeat: no-repeat;
 	background-color:#6D1916;
 }
 .qirc_menu_background{
-  background: url("/sites/all/themes/qirc/images/5938_QIRC-Concepts_Revised-menu.jpg");
+  background: url("../images/5938_QIRC-Concepts_Revised-menu.jpg");
   background-repeat:no-repeat;
 }
 .wrapper {
@@ -680,7 +680,7 @@ label > .label-body {
     height: 30px;
     width: 220px;
     border-radius: 0px !important;
-	/*background-image: url("/sites/all/themes/qirc/images/search_button.png");*/
+	/*background-image: url("../images/search_button.png");*/
 	background-repeat:no-repeat;
 	background-color:#fff;
 	background-position: right top;
@@ -690,7 +690,7 @@ label > .label-body {
     height: 30px;
     width: 220px;
     border-radius: 0px !important;
-	/*background-image: url("/sites/all/themes/qirc/images/search_button.png");*/
+	/*background-image: url("../images/search_button.png");*/
 	background-repeat:no-repeat;
 	background-color:#fff;
 	background-position: right top;
