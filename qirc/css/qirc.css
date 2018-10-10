@@ -234,7 +234,9 @@ p {
 }
 
 #quickset-faq > div.ui-accordion-content.ui-helper-reset.ui-widget-content.ui-corner-bottom.ui-accordion-content-active > article > div > div > div > p {font-size:1.5rem;}
-
+#quickset-faq > div.ui-accordion-content.ui-helper-reset.ui-widget-content.ui-corner-bottom.ui-accordion-content-active > article > div > div > div > ul > li {
+	font-size:1.5rem;
+}
 #quickset-faq > div.ui-accordion-content.ui-helper-reset.ui-widget-content.ui-corner-bottom.ui-
 
 accordion-content-active > article > div > div > div > h4{
@@ -1642,7 +1644,7 @@ and (orientation : portrait) {
 	background: -ms-linear-gradient(left, rgba(102,15,21,1) 0%, rgba(102,15,21,1) 12%, rgba(4,50,71,1) 100%);
 	background: linear-gradient(to right, rgba(102,15,21,1) 0%, rgba(102,15,21,1) 12%, rgba(4,50,71,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#660f15', endColorstr='#043247', GradientType=1 );
-	background:url("/sites/all/themes/qirc/images/5938_QIRC-Concept-FooterBanner.jpg");
+	background:url("../images/5938_QIRC-Concept-FooterBanner.jpg");
 	background-repeat: no-repeat;*/
 }
 
