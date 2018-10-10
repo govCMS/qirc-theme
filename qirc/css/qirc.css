@@ -230,7 +230,15 @@ p {
   margin-top: 0; }
 
 #quickset-faq > div.ui-accordion-content article p{
-   font-size:1.5rem;
+   
+}
+
+#quickset-faq > div.ui-accordion-content.ui-helper-reset.ui-widget-content.ui-corner-bottom.ui-accordion-content-active > article > div > div > div > p {font-size:1.5rem;}
+
+#quickset-faq > div.ui-accordion-content.ui-helper-reset.ui-widget-content.ui-corner-bottom.ui-
+
+accordion-content-active > article > div > div > div > h4{
+	
 }
 
 .whitetext{
@@ -268,7 +276,9 @@ p {
 div#block-views-home-page-items-block div.qirc-front-icons a img  {
 	
 }
-  
+
+
+
 /* Links
 -----------------------------------------------*/
 a {color: #124556; }
@@ -283,24 +293,40 @@ a:hover {color: #124556; text-decoration:underline;}
 
 
  .home-tabs-container > a{
-	text-decoration:none;
-	font-weight:bold;
-	color: #fff;
-	font-size:1.2em;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.2em;
+    padding-right: 1%;
  } 
  
 .home-tabs-container > a:hover{ text-decoration:underline; } 
-.qirc-front-icons {    
-	min-height: 110px;
+
+.qirc-front-icons {
+    min-height: 135px;
     background: #1c557b;
     min-width: 50px;
     float: right;
- }
-.home-tabs-container{  padding-top:1.5em; padding-left:1.3em;padding-right:1.3em; }
+}  
+
+
+.home-tabs-container{  
+    padding-top: 1.5em;
+    padding-left: 1.3em;
+    padding-right: 1.3em;
+    text-align: left;
+    /* width: 30%; */
+    /* margin-left: 2%; */
+    display: block;
+    padding-right: 5%;
+    margin-right: 5%
+}
 
 
 #block-views-home-page-items-block > div.block__content > div > div > div > div > div > div > a > img {
-	padding-top: 1.8em;padding-left: 1em;
+	padding-top: 1.8em;
+	padding-left: 1em;
+	margin-right: 1em;
 }
  
 #block-views-home-page-items-block > div.block__content > a > img {
