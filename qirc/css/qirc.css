@@ -162,9 +162,7 @@
  /* .wrapper{ margin-left:50px; }*/
   #block-views-home-page-items-block > div.block__content > div > div > div > div:nth-child(1){
 	padding-top:30px;
-  }
-	
-
+  }	
       
   .col-contained{
 	  min-height:130px;
@@ -912,6 +910,11 @@ pre > code {
 
 /* Tables
 -----------------------------------------------*/
+
+/* bootstrap override */
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #dadde2 !important;
+}
 
 td {
   padding: 5px 15px;
