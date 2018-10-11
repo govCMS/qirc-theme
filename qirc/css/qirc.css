@@ -811,13 +811,21 @@ label > .label-body {
 	background-color:#dadde2;
 }
 
+#edit-field-form-category-tid-wrapper{
+   margin-left: 15px;
+   margin-top: 5px;
+}
 
+#edit-field-form-category-tid-wrapper{
+   margin-left: 15px;
+   margin-top: 5px;
+}
 
 
 /* Lists
 -----------------------------------------------*/
 ul {
-	    margin-left: 50px;
+	margin-left: 50px;
    }
 ol {
   list-style: decimal inside; }
