@@ -249,6 +249,10 @@ accordion-content-active > article > div > div > div > h4{
     font-size: 2.0rem;
 }  
 
+.qirc_updated_date{
+    margin-top:30px;	
+}
+
 .ui-widget-content a {
     color: #222222/*{fcContent}*/;
     font-size: 1.3rem !important;
