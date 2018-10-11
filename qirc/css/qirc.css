@@ -406,9 +406,8 @@ a:hover {color: #124556; text-decoration:underline;}
 	border-right:none;
  }
  
- ul#superfish-2 > li  > a:hover,  
+ 
  ul#superfish-2 > li  > a:active,
- ul#superfish-2 > li  > a.active, 
  ul#superfish-2 > li:hover,
  ul#superfish-2 > li.active-trail {
 	background:#6C82A0 !important; /* hover color */ 
@@ -418,11 +417,13 @@ ul#superfish-2 ul > li > a:hover{
 	/*padding:10px;*/
 } 
  
+ul#superfish-2 > ul{
+   background: #294C7B !important;
+}
 ul#superfish-2 > ul, 
 ul#superfish-2 ul, 
-ul#superfish-2 ul li, 
-ul#superfish-2 ul li a {
-    background: #294C7B !important;
+ul#superfish-2 ul li
+{
     padding-bottom: 5px;
     color: #fff;
     text-decoration: none;
@@ -447,7 +448,6 @@ ul#superfish-2 li ul li a, ul#superfish-2 li ul li {
 	padding-right:5px;
 }
  
- ul#superfish-2  li  ul li  a:hover,  
  ul#superfish-2  li  ul  li:hover, 
  ul#superfish-2  li  ul  li  a:active,
  ul#superfish ul li li:hover, 
