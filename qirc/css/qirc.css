@@ -665,7 +665,7 @@ input[type="submit"]#edit-submit-table-of-i-forms{
    margin-left: -10px !important;
    padding-left: 10px !important;
    padding-right: 10px !important;
-   margin-top:6px !important;
+   margin-top:34px !important;
 }  
 
 
@@ -982,7 +982,7 @@ td.views-field-field-date-certified{
 
 .table thead th {
     vertical-align: bottom;
-    border-bottom: 2px solid #dee2e6
+    border-bottom: 1px solid #dee2e6
 }
 
 .table tbody+tbody {
