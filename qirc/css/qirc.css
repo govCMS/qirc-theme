@@ -828,9 +828,9 @@ label > .label-body {
 }
 
 #edit-submit-table-of-i-forms{
-    MARGIN-LEFT: -10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    MARGIN-LEFT: -10px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
 }	
 
 /* Lists
