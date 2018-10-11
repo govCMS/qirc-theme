@@ -600,10 +600,12 @@ input[type="button"] {
   text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
-  border-radius: 4px;
+ /* border-radius: 4px; */
   border: 1px solid #bbb;
   cursor: pointer;
   box-sizing: border-box; 
+  background-color:#1b2c48;
+  color:#fff;	
 }
 
 
@@ -630,7 +632,7 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
-  background-color: #294C7A;
+  background-color: #1b2c48;
   border-color: #33C3F0; 
 }
 
@@ -648,7 +650,7 @@ input[type="reset"].button-primary:focus,
 
 input[type="button"].button-primary:focus {
   color: #FFF;
-  background-color: #294C7A;
+  background-color: #1b2c48;
   border-color: #1EAEDB; 
 }
 
@@ -751,10 +753,10 @@ label > .label-body {
 }
 
 #edit-submit{
-	position: relative;
+    position: relative;
     left: 230px;
     top: -50px;
-	margin-left;5px;
+    margin-left;5px;
 }
 #edit-submit--2{
    position: relative;
