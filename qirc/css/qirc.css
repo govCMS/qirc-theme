@@ -382,7 +382,7 @@ a:hover {color: #124556; text-decoration:underline;}
 
  
   ul#superfish-2 > li{
-	border-right: 1px solid #fff;
+    border-right: 1px solid #fff;
     font-size: 1.4rem;
     padding-bottom: 10px;
     padding-top: 13px;
@@ -417,7 +417,7 @@ ul#superfish-2 > ul,
 ul#superfish-2 ul, 
 ul#superfish-2 ul li, 
 ul#superfish-2 ul li a {
-	background: #294C7B !important;
+    background: #294C7B !important;
     padding-bottom: 5px;
     color: #fff;
     text-decoration: none;
@@ -437,7 +437,9 @@ ul#superfish-2 ul li a:hover {
 
  
 ul#superfish-2 li ul li a, ul#superfish-2 li ul li {
-	padding-left:0.5em;padding-
+	padding-left:0.5em;
+	padding-top:10px;
+	padding-right:5px;
 }
  
  ul#superfish-2  li  ul li  a:hover,  
