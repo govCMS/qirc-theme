@@ -1718,9 +1718,9 @@ div.field.field-name-field-icon.field-type-image > div > div > a > img{
    PRINT MEDIA QUERY
    ========================================================================== */
 .qirc_print-icon{
-	background-color:#DADDE2 ;
+	
 	border: 1px solid maroon;
-	padding:2em !important;
+	
 }
 .qirc_print-icon:hover{
 	background-color:#E8EAED;
