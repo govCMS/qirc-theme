@@ -382,9 +382,9 @@ a:hover {color: #124556; text-decoration:underline;}
  ------------------------------------------------- */
  ul#superfish-2{
 	 text-align:center;
+	 
  }
  
-
  
   ul#superfish-2 > li{
     border-right: 1px solid #fff;
@@ -413,13 +413,18 @@ a:hover {color: #124556; text-decoration:underline;}
 	background:#6C82A0 !important; /* hover color */ 
  }
  
-ul#superfish-2 ul > li > a:hover{
-	/*padding:10px;*/
-} 
  
 ul#superfish-2 > ul{
    background: #294C7B !important;
 }
+
+ ul#superfish-2  li  ul  li:hover, 
+ ul#superfish-2  li  ul  li  a:active,
+ ul#superfish ul li li:hover, 
+ ul#superfish ul li:hover {
+	 background:#6C82A0 !important;
+ }
+
 ul#superfish-2 > ul, 
 ul#superfish-2 ul, 
 ul#superfish-2 ul li
@@ -442,18 +447,13 @@ ul#superfish-2 ul li a:hover {
  
 
  
-ul#superfish-2 li ul li a, ul#superfish-2 li ul li {
+ul#superfish-2 li ul li {
 	padding-left:0.5em;
 	padding-top:10px;
 	padding-right:5px;
 }
  
- ul#superfish-2  li  ul  li:hover, 
- ul#superfish-2  li  ul  li  a:active,
- ul#superfish ul li li:hover, 
- ul#superfish ul li:hover {
-	 background:#6C82A0 !important;
- }
+
   
 ul#suprfish-2 ul li a{
 	padding-top:15px;
