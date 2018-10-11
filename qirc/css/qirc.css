@@ -821,6 +821,17 @@ label > .label-body {
    margin-top: 5px;
 }
 
+#views-exposed-form-table-of-i-forms-block-1 > div > div{
+    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-left: 15PX;
+}
+
+#edit-submit-table-of-i-forms{
+    MARGIN-LEFT: -10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}	
 
 /* Lists
 -----------------------------------------------*/
