@@ -652,7 +652,15 @@ input[type="button"].button-primary:focus {
   border-color: #1EAEDB; 
 }
 
-  
+input[type="submit"]#edit-submit-table-of-i-forms{
+   padding-left:10px;
+   padding-right:10px;
+   margin-left: -10px !important;
+   padding-left: 10px !important;
+   padding-right: 10px !important;
+   margin-top:3px !important;
+}  
+
 
 
 /* Forms
@@ -735,7 +743,7 @@ label > .label-body {
 	background-position: right top;
 }
 #edit-keys-1,#edit-search-block-form--3{
-	margin-left: 5px;
+margin-left: 5px;
     height: 30px;
     width: 220px;
     border-radius: 0px !important;
@@ -825,11 +833,9 @@ label > .label-body {
     padding-left: 15PX;
 }
 
-#edit-submit-table-of-i-forms{
-    MARGIN-LEFT: -10px !important;
-    padding-left: 10px !important;
-    padding-right: 10px !important;
-}	
+	
+
+
 
 /* Lists
 -----------------------------------------------*/
@@ -911,10 +917,6 @@ pre > code {
 /* Tables
 -----------------------------------------------*/
 
-/* bootstrap override */
-.table-striped tbody tr:nth-of-type(odd) {
-    background-color: #dadde2 !important;
-}
 
 td {
   padding: 5px 15px;
