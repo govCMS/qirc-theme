@@ -1202,7 +1202,10 @@ td.views-field-field-date-certified{
 /** end bootstrap tables **/
 
 
-
+/** overrides */
+th:last-child {
+    padding-left: 10px;
+}
 
 
 
