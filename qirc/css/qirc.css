@@ -509,11 +509,11 @@ ul#superfish-1 > li.first:before{
 
 
 .region-headerphone{
-	clear: both;
+    clear: both;
     position: relative;
     /* right: 10px; */
     left: 650px;
-	width: 200px;
+    width: 200px;
   }
 
 /* Sidebar Menus
@@ -658,7 +658,7 @@ input[type="submit"]#edit-submit-table-of-i-forms{
    margin-left: -10px !important;
    padding-left: 10px !important;
    padding-right: 10px !important;
-   margin-top:3px !important;
+   margin-top:6px !important;
 }  
 
 
