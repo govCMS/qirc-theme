@@ -252,6 +252,7 @@ accordion-content-active > article > div > div > div > h4{
 
 .qirc_updated_date{
     margin-top:30px;	
+    text-align:center;	
 }
 
 .ui-widget-content a {
