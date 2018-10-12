@@ -961,12 +961,13 @@ th:first-child{
 
 td.views-field-field-ca-number{
     width:12% !important ;
-	font-weight: 600;
+    font-size: 0.8em !important;
     color: #2E4D79;
 }
 
 td.views-field-field-date-certified{
 	width:15% !important ;
+	font-size: 0.8em !important;
 }
 
 /** add some bootstrap table styles **/
