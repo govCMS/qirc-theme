@@ -84,6 +84,9 @@
 	height:100px
 }
 
+.view-certified-agreements-dropdown{
+	margin-bottom:30px;
+}
 
 /* For devices larger than 400px */
 @media (min-width: 400px) {
