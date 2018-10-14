@@ -440,11 +440,14 @@ ul#superfish-2 ul li
 
 }
 
-ul#superfish-2 ul li a{
- color:#fff;	
+ul#superfish-2 ul li a, 
+ul#superfish-2 ul li a:active,
+ul#superfish-2 ul li a:visited{
+     color:#fff;	
 }
 ul#superfish-2 ul li a:hover {
 	text-decoration:underline;
+	color:#fff;
 }
 
 
