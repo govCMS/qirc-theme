@@ -78,7 +78,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-	background-image: url("../images/5938_QIRC-Concepts_Revised footer-100height.jpg");
+	background-image: url("../images/5938_QIRC-Concepts_Revised-footer-100height.jpg");
 	background-repeat:no-repeat;
 	background-color: #152E4A;
 	height:100px
@@ -440,6 +440,11 @@ ul#superfish-2 ul li
 
 }
 
+
+ul#superfish-2 ul li a, l#superfish-2 ul li a:visited{
+  color:#fff;
+  text-decoration: none;
+}
 ul#superfish-2 ul li a, 
 ul#superfish-2 ul li a:active,
 ul#superfish-2 ul li a:visited{
