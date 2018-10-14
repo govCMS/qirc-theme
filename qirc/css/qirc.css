@@ -419,7 +419,7 @@ a:hover {color: #124556; text-decoration:underline;}
  
  
 ul#superfish-2 > ul{
-   background: #294C7B !important;
+   background: #1D4B80 !important;
 }
 
  ul#superfish-2  li  ul  li:hover, 
@@ -440,6 +440,9 @@ ul#superfish-2 ul li
 
 }
 
+ul#superfish-2 ul li a{
+ color:#fff;	
+}
 ul#superfish-2 ul li a:hover {
 	text-decoration:underline;
 }
@@ -454,7 +457,7 @@ ul#superfish-2 ul li a:hover {
 ul#superfish-2 li ul li {
 	padding-left:0.5em;
 	padding-top:10px;
-	padding-right:5px;
+	
 }
  
 
