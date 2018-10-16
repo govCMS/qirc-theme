@@ -294,6 +294,7 @@ div#block-views-home-page-items-block div.qirc-front-icons a img  {
 -----------------------------------------------*/
 a {color: #124556; }
 a:hover {color: #124556; text-decoration:underline;} 
+#quickset-trading_hours > a { text-decoration:none !important; }
  
 .qirc_lite_grn_bg a {font-weight:900;font-size:1.8rem !important;}
 .qirc_lite_bg{ background-color: #7c97b0; color:#fff; min-height:110px;   }
