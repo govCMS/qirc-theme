@@ -845,7 +845,7 @@ margin-left: 5px;
   
 
 #block-views-table-of-i-forms-block-1 > div > div > div.view-filters{
-	background-color:#dadde2;
+	background-color:rgba(0,0,0,.05);
 }
 
 #edit-field-form-category-tid-wrapper{
