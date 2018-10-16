@@ -248,7 +248,7 @@ accordion-content-active > article > div > div > div > h4{
 }
 
 .whitetext{
-	color: #fff;
+    color: #fff;
     font-weight: 500;
     font-size: 2.0rem;
 }  
@@ -258,10 +258,17 @@ accordion-content-active > article > div > div > div > h4{
     text-align:center;	
 }
 
-.ui-widget-content a {
+.ui-widget-content a,
+.ui-widget-content a:visited {
     color: #222222/*{fcContent}*/;
     font-size: 1.3rem !important;
+    text-decoration:none !important;	
 }
+
+
+.ui-widget-content a:hover{
+	text-decoration:underline;
+} 
 
 .ui-helper-reset {
     font-size: font-size: 1.4rem;
