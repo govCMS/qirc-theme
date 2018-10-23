@@ -246,7 +246,11 @@ p {
 }
 
 #quickset-quicktabs_reviews_and_rulings_aw > div.ui-accordion-content.ui-helper-reset.ui-widget-content.ui-corner-bottom.ui-accordion-content-active > article > div > div > div > p{
-   font-size: 1.4rem;
+   font-size: 11px;
+}
+
+#quickset-quicktabs_reviews_and_rulings_aw > div.ui-accordion-content.ui-helper-reset.ui-widget-content.ui-corner-bottom.ui-accordion-content-active > article > div > div > div > ul > li{
+ font-size:11px;
 }
 
 
