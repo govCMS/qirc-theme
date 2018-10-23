@@ -188,7 +188,7 @@ html {
   
   }
 body {
-  font-size: 14px; /* currently ems cause chrome bug misinterpreting rems on body element */
+  font-size: 14px; 
   line-height: 1.6;
   font-weight: 400;
   font-family: 'Helvetica Neue Bold',sans-serif;
