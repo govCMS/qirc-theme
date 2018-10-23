@@ -293,6 +293,7 @@ div#block-views-home-page-items-block div.qirc-front-icons a img  {
 /* quicktab overrides*/
 
 .ui-widget-content a, 
+.ui-helper-reset, 
 .ui-widget-content a:active,
 .ui-widget-content a:visited, 
 .ui-widget-content p, 
