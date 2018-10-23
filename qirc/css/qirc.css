@@ -290,6 +290,21 @@ div#block-views-home-page-items-block div.qirc-front-icons a img  {
 
 
 
+/* quicktab overrides*/
+
+.ui-widget-content a, 
+.ui-widget-content a:active,
+.ui-widget-content a:visited, 
+.ui-widget-content p, 
+ui-helper-reset.ui-widget-content ol li,
+#quickset-quicktabs_reviews_and_rulings_aw  ul li {
+    color: #222222;
+    text-decoration: none !important;
+    font-size: 14px !important;
+}
+
+
+
 /* Links
 -----------------------------------------------*/
 a {color: #124556; }
