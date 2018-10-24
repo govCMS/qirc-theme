@@ -278,6 +278,11 @@ ui-widget ui-helper-reset{
     padding-top: 5px;
 }
 
+.qirc-box-title{
+    font-size: 18px;
+    margin-left: 10px;
+}
+
 .ui-accordion-header:nth-child(even) {
    background-color: #fff !important;
 }
