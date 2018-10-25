@@ -350,7 +350,7 @@ a:hover {color: #124556; text-decoration:underline;}
     padding-right: 1%;
  } 
  
-.home-tabs-container > a:hover{ text-decoration:underline; } 
+.home-tabs-container > a:hover{ } 
 
 .qirc-front-icons {
     min-height: 135px;
