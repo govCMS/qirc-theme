@@ -47,6 +47,10 @@ Drupal.behaviors.responsiveSlides = {
 
     }
 };
+	
+$(".ui-state-default:odd" ).css("background-color", "#bbbbff");
+$(".ui-state-default:even").css("background-color","#fff");	
+	
 
 
 })(jQuery, Drupal, this, this.document);
@@ -55,7 +59,7 @@ Drupal.behaviors.responsiveSlides = {
 
 
 function printPage(){
-	alert('print');
+	
 	window.print();
 }
 
