@@ -292,6 +292,7 @@ ui-widget ui-helper-reset{
   background: -webkit-linear-gradient(left, #2e4d79 34%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to right, #2e4d79 34%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e4d79', endColorstr='#6d0019',GradientType=1 );
+  color:#fff;	
 }
 
 
