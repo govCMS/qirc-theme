@@ -255,13 +255,12 @@ ui-widget ui-helper-reset{
 .ui-widget-content a,
 .ui-widget-content a:visited {
     color: #222222/*{fcContent}*/;
-
     text-decoration:none !important;	
 }
 
 
 .ui-widget-content a:hover{
-	text-decoration:underline;
+	text-decoration:underline !important;
 } 
 
 .ui-helper-reset {
@@ -322,7 +321,7 @@ div#block-views-home-page-items-block div.qirc-front-icons a img  {
 
 /* quicktab overrides*/
 
-.ui-widget-content a, 
+ 
 .ui-helper-reset, 
 .ui-widget-content a:active,
 .ui-widget-content a:visited, 
@@ -369,7 +368,7 @@ a:hover {color: #124556; text-decoration:underline;}
 
 
 .home-tabs-container{  
-    padding-top: 1.5em;
+    /* padding-top: 1.5em; */
     padding-left: 1.3em;
     padding-right: 1.3em;
     text-align: left;
