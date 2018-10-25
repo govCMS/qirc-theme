@@ -49,7 +49,11 @@
 //    }
 // };
 
-	
+  $(document).ready(function($) {
+        
+        $("h3.ui-accordion-header").css( "background-color", "#bbbbff" );
+        
+    });	
 	
 
 
