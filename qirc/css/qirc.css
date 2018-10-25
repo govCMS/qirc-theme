@@ -254,10 +254,12 @@ ui-widget ui-helper-reset{
 
 .ui-widget-content a,
 .ui-widget-content a:visited {
-    color: #222222/*{fcContent}*/;
-    text-decoration:none !important;	
+    color: #222222/*{fcContent}*/;	
 }
 
+.ui-widget-content a{
+    text-decoration:underline !important;
+}
 
 .ui-widget-content a:hover{
 	text-decoration:underline !important;
@@ -302,7 +304,6 @@ ui-widget ui-helper-reset{
 
 
 .qirc_logo{
-
  width:auto; 
  margin-top:10px;
  padding-bottom:25px;
@@ -1444,7 +1445,6 @@ div.field.field-name-field-file.field-type-file.field-label-above > div.field-la
   
 .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
     color: #18497D;
-    text-decoration: none;
 }
 
 /* Colours
