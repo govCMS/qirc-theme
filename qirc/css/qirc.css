@@ -371,13 +371,14 @@ a:hover {color: #124556; text-decoration:underline;}
 .home-tabs-container{  
     /* padding-top: 1.5em; */
     padding-left: 1.3em;
-    padding-right: 1.3em;
+    /* padding-right: 1.3em; */
     text-align: left;
     /* width: 30%; */
     /* margin-left: 2%; */
     display: block;
     padding-right: 5%;
-    margin-right: 5%
+    margin-right: 5%;
+    padding-top: 20%;
 }
 
 
