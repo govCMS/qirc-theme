@@ -49,8 +49,8 @@
 //    }
 // };
 	
-$(".ui-state-default:odd" ).css("background-color", "#bbbbff !important");
-$(".ui-state-default:even").css("background-color","#fff !important");	
+$(".ui-accordion-header:odd" ).css("background-color", "#bbbbff !important");
+$(".ui-accordion-header:even").css("background-color","#fff !important");	
 	
 
 
