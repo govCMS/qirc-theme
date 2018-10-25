@@ -24,32 +24,33 @@
 //  }
 // };
 
-Drupal.behaviors.mainMenuSuperfish = {
-  attach: function(context, settings) {
+// Drupal.behaviors.mainMenuSuperfish = {
+//  attach: function(context, settings) {
 
-    var superfish_menu = $(".region-navigation .block__content > .menu");
+//    var superfish_menu = $(".region-navigation .block__content > .menu");
+//
+//    superfish_menu.addClass('sf-menu');
+//    superfish_menu.superfish({
+//      autoArrows:  false
+//    });
+//  }
+// };
 
-    superfish_menu.addClass('sf-menu');
-    superfish_menu.superfish({
-      autoArrows:  false
-    });
-  }
-};
 
-Drupal.behaviors.responsiveSlides = {
-    attach: function(context, settings) {
+// Drupal.behaviors.responsiveSlides = {
+//    attach: function(context, settings) {
+//
+//        $(".view-slideshow ul:not(.contextual-links)").responsiveSlides({
+//            "auto": false,
+//            "pager": true,         // Boolean: Show pager, true or false
+//            "pauseButton": false   // Boolean: Create Pause Button
+//        });
 
-        $(".view-slideshow ul:not(.contextual-links)").responsiveSlides({
-            "auto": false,
-            "pager": true,         // Boolean: Show pager, true or false
-            "pauseButton": false   // Boolean: Create Pause Button
-        });
-
-    }
-};
+//    }
+// };
 	
-$(".ui-state-default:odd" ).css("background-color", "#bbbbff");
-$(".ui-state-default:even").css("background-color","#fff");	
+$(".ui-state-default:odd" ).css("background-color", "#bbbbff !important");
+$(".ui-state-default:even").css("background-color","#fff !important");	
 	
 
 
