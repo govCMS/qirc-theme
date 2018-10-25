@@ -382,9 +382,8 @@ a:hover {color: #124556; text-decoration:underline;}
 
 
 #block-views-home-page-items-block > div.block__content > div > div > div > div > div > div > a > img {
-	padding-top: 1.8em;
-	padding-left: 1em;
 	margin-right: 1em;
+        padding: 60% 10%;
 }
  
 #block-views-home-page-items-block > div.block__content > a > img {
