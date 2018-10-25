@@ -36,9 +36,8 @@
 
   ?>
   <script>
-  function printPage(){
-	window.print();
-}
+  function printPage(){ window.print();}
+  	  
 </script>
 </head>
 <body>
