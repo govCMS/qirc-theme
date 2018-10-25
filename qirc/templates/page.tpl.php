@@ -1,3 +1,16 @@
+<!-- test -->
+
+<script>
+$(document).ready(function($) {
+   $(".ui-state-default:odd" ).css("background-color", "#bbbbff");
+   $(".ui-state-default:even").css("background-color","#fff");
+});
+</script>
+
+
+<!-- end test -->
+
+
 <?php 
 
 if (!path_is_admin(current_path())) {
