@@ -6,7 +6,9 @@
 	<div class="row qirc_drk_steel_blue qirc-home-bg">
 		<div class="three columns">
 		<a href="<?php echo $base_url;?>">
-			<img src="<?php print '/' . path_to_theme(); ?>/images/Industrial-courts-logo-copy.png" alt="<?php print t('Home'); ?>" class="qirc_logo">
+<!-- <img src="<?php print '/' . path_to_theme(); ?>/images/Industrial-courts-logo-copy.png" alt="<?php print t('Home'); ?>" class="qirc_logo"> -->
+<img src="<?php print '/' . path_to_theme(); ?>/images/industrialcourtslogo_v3.png" alt="<?php print t('Home'); ?>" class="qirc_logo"> 
+					
 		</a>	
 		</div>
 		<div class="nine columns qirc-quicklinks">
