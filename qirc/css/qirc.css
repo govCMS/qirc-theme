@@ -298,7 +298,8 @@ ui-widget ui-helper-reset{
 }
 
 a.white-override, a.white-override:hover,a.white-override:active{
- color:#fff;	
+ color:#fff;
+text-decoration:none;	
 }
 
 /* Logo
