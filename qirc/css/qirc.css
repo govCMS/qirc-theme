@@ -1450,6 +1450,14 @@ div.field.field-name-field-file.field-type-file.field-label-above > div.field-la
     color: #18497D;
 }
 
+.ui-accordion-content{
+   overflow: scroll !important;
+   overflow-x:hidden !important;
+   overflow-y:hidden !important;	
+}
+
+
+
 /* Colours
 ----------------------------------------------------*/
 
