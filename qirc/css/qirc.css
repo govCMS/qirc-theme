@@ -325,6 +325,11 @@ div#block-views-home-page-items-block div.qirc-front-icons a img  {
 
 /* quicktab overrides*/
 
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
+    border: 1px solid #18497D;
+    background: #F4FAFD;
+}
+
  
 .ui-helper-reset, 
 .ui-widget-content a:active,
