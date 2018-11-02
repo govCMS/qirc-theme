@@ -73,6 +73,7 @@ headers.click(function() {
 
 // hook up the expand/collapse all
 expandLink.click(function(){
+    alert('triggered expand all');	
     var isAllOpen = $(this).data('isAllOpen');
     
     contentAreas[isAllOpen? 'hide': 'show']()
