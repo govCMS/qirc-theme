@@ -1553,8 +1553,22 @@ hr {
 /* styles for mobile */
 .tinynav {
   display: block;}
-  
+ 
 
+
+#edit-field-document-category-tid{
+	width:30em !important;
+}
+
+
+
+#superfish-2-toggle > span:nth-child(1){
+	display:none;
+}
+
+.sf-accordion-toggle{
+ display:none;	
+}
 
   
   
@@ -1578,21 +1592,12 @@ div.site-map-box-menu > h2.title{
   clear: both; }
 
 
+
+
+
 /* Media Queries
 -----------------------------------------------*/
-#edit-field-document-category-tid{
-	width:30em !important;
-}
 
-
-
-#superfish-2-toggle > span:nth-child(1){
-	display:none;
-}
-
-.sf-accordion-toggle{
- display:none;	
-}
 
 @media (max-width: 319px){
 	.qirc_logo{max-width: 230px;}
