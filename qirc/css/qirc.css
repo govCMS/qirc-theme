@@ -1560,8 +1560,10 @@ hr {
 	width:30em !important;
 }
 
-
-
+div.form-item.form-type-textfield.form-item-field-document-category-tid input#edit-field-document-category-tid.form-text.form-autocomplete
+{
+	width:30em !important;
+}
 #superfish-2-toggle > span:nth-child(1){
 	display:none;
 }
