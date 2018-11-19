@@ -1554,7 +1554,9 @@ hr {
 .tinynav {
   display: block;}
  
-
+.admin-views-view .views-exposed-form .form-text {
+    width:30em !important;
+}
 
 #edit-field-document-category-tid{
 	width:30em !important;
