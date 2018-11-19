@@ -1554,9 +1554,7 @@ hr {
 .tinynav {
   display: block;}
  
-.admin-views-view .views-exposed-form .form-text {
-    width:300px !important;
-}
+
 
 #superfish-2-toggle > span:nth-child(1){
 	display:none;
@@ -1566,7 +1564,16 @@ hr {
  display:none;	
 }
 
-  
+ .views-exposed-form .form-item input {
+	border: 1px solid #C8C8C8;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	max-width: 100%;
+	outline: 0;
+	padding: 4px 5px;
+	min-width: 25em !important;
+}  
   
   
 /* Sitemap
