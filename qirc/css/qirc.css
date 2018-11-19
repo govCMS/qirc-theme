@@ -1555,17 +1555,9 @@ hr {
   display: block;}
  
 .admin-views-view .views-exposed-form .form-text {
-    width:30em !important;
+    width:300px !important;
 }
 
-#edit-field-document-category-tid{
-	width:30em !important;
-}
-
-div.form-item.form-type-textfield.form-item-field-document-category-tid input#edit-field-document-category-tid.form-text.form-autocomplete
-{
-	width:30em !important;
-}
 #superfish-2-toggle > span:nth-child(1){
 	display:none;
 }
