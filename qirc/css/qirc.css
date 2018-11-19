@@ -852,7 +852,8 @@ margin-left: 5px;
 
 
 .region-awards-dropdown{
-	float:right;
+	float:none;
+	margin-bottom:20px;
 }
 
 #edit-submit{
