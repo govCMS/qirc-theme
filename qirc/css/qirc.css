@@ -235,8 +235,8 @@ p {
   margin-top: 0; }
 
 
-ui-widget ui-helper-reset{
-	
+.ui-widget .ui-helper-reset{
+  font-family: 'Helvetica Neue Bold',sans-serif !important;
 }
 
 
@@ -266,8 +266,7 @@ ui-widget ui-helper-reset{
 } 
 
 .ui-helper-reset {
-
-
+font-family: 'Helvetica Neue Bold',sans-serif;
 }
 
 .qirc-title {
