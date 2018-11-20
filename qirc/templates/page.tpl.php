@@ -49,13 +49,13 @@ if (!path_is_admin(current_path())) {
 		if($thispath != 'search'){
 			print '<h1>'. render($title) .'</h1>';
 			}else{
-			print '<h2>Search </h2>';
+			   print '<h2>Search </h2>';
 			}
-			print render($page['content']);
+			  print render($page['content']);
 			
-			if(($thispasth != 'feedback') and ($thispath != 'search')){
+			if(($thispasth != 'feedback') or ($thispath != 'search') or ($node->nid != 161)){
 			   print '<p class="qirc_updated_date">Last updated '. format_date($node->changed,'custom', 'd F Y')."</p>";
-			}	
+			}
 		?>
 			
  	
