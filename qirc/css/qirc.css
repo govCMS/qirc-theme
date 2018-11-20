@@ -13,7 +13,7 @@
 - Banners
   -- home page banner background
 - Forms
-  -- Includes verrides for QIRC
+  -- Includes overrides for QIRC
 - Lists
 - Quick tabs
 - Code
@@ -930,6 +930,9 @@ margin-left: 5px;
     padding-left: 15PX;
 }
 
+span.username{
+ display:none;
+}
 	
 
 
