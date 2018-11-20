@@ -52,8 +52,11 @@ if (!path_is_admin(current_path())) {
 			print '<h2>Search </h2>';
 			}
 			print render($page['content']);
-			print '<p class="qirc_updated_date">Last updated '. format_date($node->changed,'custom', 'd F Y')."</p>";
-			?>
+			
+			if(($thispasth != 'feedback') and ($thispath != 'search')){
+			   print '<p class="qirc_updated_date">Last updated '. format_date($node->changed,'custom', 'd F Y')."</p>";
+			}	
+		?>
 			
  	
 				
