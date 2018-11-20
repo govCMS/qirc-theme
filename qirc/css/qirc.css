@@ -962,6 +962,11 @@ li {
  /* Quick tabs
 -----------------------------------------------*/
 
+.ui-widget-content 
+.ui-widget{
+  font-family: 'Helvetica Neue Bold',sans-serif !important;
+}
+
 ul.quicktabs-tabs.quicktabs-style-zen li {
 	background-image:none;
 	border:1px solid #294C7A;
