@@ -1654,7 +1654,7 @@ div.site-map-box-menu > h2.title{
 	
 	/* superfish */
 	ul#superfish-3-accordion > li { float:none !important; }
-	ul#superfish-2-accordion > li { float:none; }
+	ul#superfish-2-accordion > li { float:none; padding:1.5px;}
 	ul#superfish-1 {margin-top:10px;padding-top:0;}
 	ul#superfish-1 > li::before {content: "";}
 	ul#superfish-2-accordion > li a,ul#superfish-2-accordion > li a:active,ul#superfish-2-accordion > li a:visited
