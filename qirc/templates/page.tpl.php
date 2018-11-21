@@ -33,7 +33,7 @@ if (!path_is_admin(current_path())) {
 	
 	
 	<?php 
-	echo 'thispath' . $thispath . 'node id'. $node->nid .'<br>';	
+		
 		
 	if($thispath == 'search'){
 		?>
@@ -56,7 +56,7 @@ if (!path_is_admin(current_path())) {
 			}
 			  print render($page['content']);
 			
-			if(($thispasth != 'feedback') or ($thispath != 'search') or ($node->nid != 161) or $thispath != 'confirmation'){
+			if(($thispasth != 'feedback') AND ($thispath != 'search') AND ($node->nid != 161) AND ($thispath != 'confirmation')){
 			   print '<p class="qirc_updated_date">Last updated '. format_date($node->changed,'custom', 'd F Y')."</p>";
 			}
 		?>
