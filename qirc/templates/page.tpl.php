@@ -7,6 +7,7 @@ if (!path_is_admin(current_path())) {
 	$thisnode = 'node/'.$node->nid; 
 	$thispath = explode('/',request_path());
 	$thispath = $thispath[0];
+	
 }
 	
 ?>
@@ -32,6 +33,8 @@ if (!path_is_admin(current_path())) {
 	
 	
 	<?php 
+	echo 'thispath' . $thispath . 'node id'. $node->nid .'<br>';	
+		
 	if($thispath == 'search'){
 		?>
 		<div class="breadcrumb"><a href="/">Home</a> » <a href="/search/node">Search</a></div>
@@ -53,7 +56,7 @@ if (!path_is_admin(current_path())) {
 			}
 			  print render($page['content']);
 			
-			if(($thispasth != 'feedback') or ($thispath != 'search') or ($node->nid != 161)){
+			if(($thispasth != 'feedback') or ($thispath != 'search') or ($node->nid != 161) or $thispath != 'confirmation'){
 			   print '<p class="qirc_updated_date">Last updated '. format_date($node->changed,'custom', 'd F Y')."</p>";
 			}
 		?>
