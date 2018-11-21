@@ -1657,8 +1657,11 @@ div.site-map-box-menu > h2.title{
 	ul#superfish-2-accordion > li { float:none; }
 	ul#superfish-1 {margin-top:10px;padding-top:0;}
 	ul#superfish-1 > li::before {content: "";}
-	ul#superfish-2-accordion > li a { text-decoration:none;}
-	ul#superfish-2-accordion > li a:hover { text-decoration:underline;}
+	ul#superfish-2-accordion > li a,ul#superfish-2-accordion > li a:active,ul#superfish-2-accordion > li a:visited
+	{ text-decoration:none; color:#fff}
+	ul#superfish-2-accordion > li a:hover { color:#fff;text-decoration:underline;}
+	
+	
 	
 	/* front icons */
 	div.qirc-front-icons a img{ padding-top:0px;float:right;margin-top: -30px;max-width: 30px;height: auto;padding-right: 20px;}
