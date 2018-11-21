@@ -930,8 +930,8 @@ margin-left: 5px;
     padding-left: 15PX;
 }
 
-span.username{
- display:none;
+p.submitted{
+ display:none !important;
 }
 	
 
