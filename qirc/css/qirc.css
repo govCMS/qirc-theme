@@ -1640,11 +1640,11 @@ div.site-map-box-menu > h2.title{
 	.region-searchblock{float:none; position:absolute;top:-25px;  }
 	div.region.region-headerphone p {padding-left:5px;}
 	
-    .sidebars_wrapper{display:none;}
-    .qirc-quicklinks{ right:0px; }
-    .col-contained{margin-bottom:2px ;}
-	.qirc_logo{max-width:275px;}
-	.menu-left-9-col{margin-top:-10px;}
+       .sidebars_wrapper{display:none;}
+       .qirc-quicklinks{ right:0px; }
+       .col-contained{margin-bottom:2px ;}
+       .qirc_logo{max-width:275px;}
+       .menu-left-9-col{margin-top:-10px;}
 	
 	
 	/* search */
@@ -1664,14 +1664,15 @@ div.site-map-box-menu > h2.title{
 	
 	
 	/* front icons */
-	div.qirc-front-icons a img{ padding-top:0px;float:right;margin-top: -30px;max-width: 30px;height: auto;padding-right: 20px;}
-	.qirc-front-icons img {width:20px;height:auto;}
+	div.qirc-front-icons a img{ padding-top:0px;float:right;margin-top:30px;min-width:50px;height: auto;padding-right: 20px;}
+	.qirc-front-icons img {width:50px;height:auto;}
 	.qirc-front-icons{min-height: unset;background: unset;}
 	.footer {position:unset;bottom: 0;left: 0;right: 0;background-image: none;background-repeat: no-repeat;background-color: #152E4A;height: unset;}
 	.qirc_menu_background {background-image: none;background-color: #234B7C;}
 	.home-tabs-container > a {font-size: 1.0em;margin-right: 2px;padding-right: 5px;}
 	.qirc_lite_bg, .qirc_lite_bg:hover{min-height:60px;}
-	#block-views-home-page-items-block > div.block__content > div > div > div > div > div > div > a > img {padding-top: unset;padding-left: unset;}	
+	#block-views-home-page-items-block > div.block__content > div > div > div > div > div > div > a > img 
+	{padding-top: unset;padding-left: unset;}	
 	
 	
 	/* breadcrumbs */
