@@ -15,6 +15,13 @@
  * @param $hook
  *   The name of the template being rendered ("maintenance_page" in this case.)
  */
+
+
+function qirc_block_info_alter(&$blocks,$theme,$code_blocks){
+   $blocks['system']['main']['weight'] = 9000;
+}
+
+
 function qirc_menu_tree__main_menu($variables) {
 
 }
