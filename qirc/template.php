@@ -21,6 +21,7 @@ function qirc_block_info_alter(&$blocks,$theme,$code_blocks){
   // $blocks['system']['main']['weight'] = 9000;
   $blocks['system']['main']['weight'] = -9999;
   print 'blocks weight'. $blocks['system']['main']['weight'];	
+ var_dump($blocks);	
 }
 
 
