@@ -74,7 +74,7 @@
     <?php if ($snippet): ?>
       <p class="search-snippet"<?php print $content_attributes; ?>><?php print $snippet; ?></p>
     <?php endif; ?>
-    Info
+  
     <?php if ($info): ?>
     <!--  <p class="search-info"><?php #print $info; ?></p>-->
     <?php endif; ?>
