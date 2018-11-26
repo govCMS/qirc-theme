@@ -897,6 +897,10 @@ margin-left: 5px;
   	
 }
 
+p.search-info > a{
+   display:none !important;
+}
+
 .qircclass{
 	height:auto;
 	max-width:40px;
