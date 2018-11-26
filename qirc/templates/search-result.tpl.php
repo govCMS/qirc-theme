@@ -76,7 +76,7 @@
     <?php endif; ?>
     Info
     <?php if ($info): ?>
-    <!--  <p class="search-info"><?php print $info; ?></p>-->
+    <!--  <p class="search-info"><?php #print $info; ?></p>-->
     <?php endif; ?>
   </div>
 </li>
