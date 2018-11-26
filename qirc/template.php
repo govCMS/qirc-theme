@@ -49,7 +49,7 @@ function qirc_form_search_api_page_search_form_alter(&$form, &$form_state, $form
 '#title_display' => $compact ? 'invisible' : 'before',
 '#default_value' => $keys,
 '#size' => $compact ? 15 : 30, );
-$form['keys_' . $page->id]['#attributes']['placeholder'] = t('Enter your keywords yo'); 
+$form['keys_' . $page->id]['#attributes']['placeholder'] = t(''); 
 
 }
 
