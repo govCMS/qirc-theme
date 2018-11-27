@@ -590,6 +590,10 @@ ul#superfish-1 > li.first:before{
 	 padding-top:15px;
  }
  
+
+.sf-menu.sf-horizontal.sf-shadow ul, .sf-menu.sf-vertical.sf-shadow ul, .sf-menu.sf-navbar.sf-shadow ul ul{
+  padding:0px;
+}
  
  
  /* Regions
