@@ -30,7 +30,6 @@ regions[navigation]     = Responsive Menu
 regions[homefeatured]   = Featured
 regions[content]        = Content
 regions[sidebar_first]  = Sidebar first
-regions[sidebar_second] = Sidebar second
 regions[frontpagepanels]= Front page panels
 regions[alert]          = Alert
 regions[header]         = Header
