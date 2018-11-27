@@ -481,7 +481,8 @@ ul#superfish-2 > ul li.first {
  
 ul#superfish-2  ul{
    background: #1D4B80 !important;
-   margin-top:6px !important; 	
+   margin-top:5.5px !important;
+   border-radius:0 !important;	
 }
 
  ul#superfish-2  li  ul  li:hover, 
@@ -502,6 +503,7 @@ ul#superfish-2 ul li
     background:	#1D4B80;
 
 }
+
 
 
 ul#superfish-2 ul li a, l#superfish-2 ul li a:visited{
@@ -528,6 +530,7 @@ ul#superfish-2 ul li a:hover {
 ul#superfish-2 li ul li {
 	padding-left:0.5em;
 	padding-top:10px;
+	border-bottom:1px solid #99b5d2;
 	
 }
  
