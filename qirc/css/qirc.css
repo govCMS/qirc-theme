@@ -497,7 +497,6 @@ ul#superfish-2 > ul,
 ul#superfish-2 ul, 
 ul#superfish-2 ul li
 {
-    padding-bottom: 5px;
     color: #fff;
     text-decoration: none;
     text-align: left;
@@ -548,6 +547,10 @@ ul#suprfish-2 ul li a{
   ul#superfish-2 > li > a > .sf-sub-indicator,.sf-sub-indicator{
 	  display:none;
   } 
+
+.sf-menu.sf-navbar.sf-shadow ul ul {
+   padding:0px !important;
+}
  
  
 /* Superfish 1
