@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+<?php print $head; ?>
+  
   <!-- Basic Page 
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title><?php  print $sitename; ?></title>
+  <title><?php print $head_title; ?></title>
   <meta name="description" content="">
   <meta name="author" content="">
 
