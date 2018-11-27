@@ -450,6 +450,7 @@ ul#superfish-2 > ul li.first {
 	margin-top:6px !important;
 }
 
+
  
   ul#superfish-2 > li{
     border-right: 1px solid #fff;
@@ -534,6 +535,9 @@ ul#superfish-2 li ul li {
 	
 }
  
+ul#superfish-2 li ul li.last{
+   border-bottom: 0px !important;
+}
 
   
 ul#suprfish-2 ul li a{
