@@ -745,7 +745,7 @@ input[type="submit"]#edit-submit-table-of-i-forms{
    margin-top:34px !important;
 }  
 
-#search-form > label {
+div.form-item.form-type-textfield.form-item-keys label {
   display:none !important;
 }
 
