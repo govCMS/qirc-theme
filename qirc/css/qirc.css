@@ -745,6 +745,9 @@ input[type="submit"]#edit-submit-table-of-i-forms{
    margin-top:34px !important;
 }  
 
+#search-form > label {
+  display:none !important;
+}
 
 
 /* Forms
@@ -856,7 +859,7 @@ margin-left: 5px;
 }
 
 #edit-submit{
-    position: relative;
+    /*position: relative;*/
     left: 230px;
     top: -50px;
     margin-left;5px;
